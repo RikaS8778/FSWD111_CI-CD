@@ -1,0 +1,26 @@
+.Timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 50%;
+  background-color: rgba(97, 218, 251, 50%);
+  font-family: Arial, sans-serif;
+  font-size: 5rem;
+  margin: 80px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.Timer p {
+  margin: 0;
+  font-size: 5rem;
+  color: rgb(255, 52, 177);
+  text-align: center;
+  line-height: 1.2;
+  font-weight: bold;
+  -webkit-text-fill-color: rgb(255, 52, 177);
+  -webkit-text-stroke: 3px white;
+  font-family: "Orbitron", sans-serif;
+}
